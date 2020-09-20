@@ -1,0 +1,299 @@
+.mainPage {
+  background-color: #d9d9d9;
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.title {
+  margin-top: 10px;
+}
+
+.title-logo {
+  width: 70%;
+  border-radius: 5px;
+  float: left;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.logo-disciplina {
+  width: 50%;
+  margin: 5px;
+  color: black;
+  transition: transform 250ms;
+}
+.logo-disciplina {
+  transform: translateY(-2px);
+}
+
+.titlu-stire {
+  float: left;
+}
+
+.text-stire {
+  margin-top: 20px;
+  text-align: justify;
+  padding-right: 20px;
+  float: left;
+}
+
+.description {
+  float: left;
+}
+
+.moreInfo {
+  float: right;
+}
+
+.btn.btn-secondary {
+  background-color: #c30000;
+  border: none;
+}
+
+.btn.btn-secondary:hover {
+  background-color: #b80000;
+}
+
+.btn.btn-primary {
+  background-color: #c30000;
+  border: none;
+}
+
+.btn.btn-primary:hover {
+  background-color: #b80000;
+}
+
+.buton-stire {
+  float: right;
+}
+
+.carousel {
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 20px;
+}
+
+.navLink {
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;  
+}
+.navLink:hover {
+  background-color: #c30000;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+
+.link:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar {
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 5px;
+  background-color: #b80000;
+  margin-bottom: 10px;
+  justify-content: space-around;
+}
+
+.jumbo.jumbotron.jumbotron-fluid {
+  background-color: #d9d9d9;
+  padding: 20px;
+}
+
+.educatie-body.card-body {
+  border: 3px solid #b80000;
+  border-radius: 15px;
+  margin: 20px;
+}
+
+.stire-body.card-body {
+  border-bottom: 3px solid #b80000;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.card-educatie.card {
+  background-color: #d9d9d9;
+  border: none;
+}
+
+.card-stire.card {
+  background-color: #d9d9d9;
+  border: none;
+}
+
+.card-contact {
+  background-color: #d9d9d9;
+  text-align: center;
+  border: none;
+  padding: 10;
+}
+.BorduriLicentaMasterat {
+  border-top: 3px solid #b80000;
+  padding: 10px;
+  margin: 20px;
+}
+
+.disciplina {
+  border: 3px solid #b80000;
+  border-radius: 10px;
+  margin: 10px;
+  width: 320px;
+  height: 200px;
+  transition: transform 250ms;
+}
+
+.disciplina:hover {
+  background-color: #c30000;
+  transform: translateY(-6px);
+}
+
+.RamaProfesor {
+  border: 3px solid #b80000;
+  border-radius: 15px;
+  margin: 20px;
+}
+
+.PozaProfesor {
+  width: 70%;
+}
+
+.ContacteProfesor.list-group-item {
+  background-color: #d9d9d9;
+}
+
+.Specializare {
+  border: 3px solid #b80000;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  transition: transform 250ms;
+}
+
+.Specializare:hover {
+  background-color: #c30000;
+  color: black;
+  transform: translateY(-6px);
+}
+
+.ContinutSpecializare {
+  margin: 20px;
+}
+
+/* .rand {
+    margin-bottom: 10px;
+} */
+
+@media (max-width: 992px) {
+  .mainPage {
+    width: 100%;
+  }
+  span.carousel-control-next-icon,
+  span.carousel-control-prev-icon {
+    display: none;
+  }
+  .h4,
+  h4 {
+    font-size: 8vw;
+  }
+}
+
+.div.col-md-6.col-sm-6 {
+  text-align: center;
+}
+
+.Curs {
+  border: 3px solid #b80000;
+  border-radius: 15px;
+  margin: 10px;
+  width: 250px;
+  height: 50px;
+  transition: transform 250ms;
+}
+.Curs:hover {
+  background-color: #c30000;
+  transform: translateY(-6px);
+}
+
+.Materiale {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+/* Se aplica tuturor childrens*/
+.Material > * {
+  margin: 5px;
+}
+.CursuriSiLaboratoare {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.LicentaB {
+  float: left;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.HeaderAn {
+  color: red;
+  font-weight: bold;
+}
+.StilScris {
+  font-weight: bold;
+  font-size: 20px;
+  color: red;
+}
+.StilScrisSpecializari {
+  font-size: 15px;
+  color: red;
+  position: left;
+}
+.h3,
+h3 {
+  color: black;
+}
+.LinkDisciplina:hover {
+  text-decoration: none;
+}
+.LinkDisciplina {
+  color: black;
+}
+.social-container {
+  background: #eee;
+  padding: 25px 50px;
+}
+a.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+a.social:hover {
+  transform: translateY(-2px);
+}
+
+a.youtube {
+  color: #eb3223;
+}
+
+a.facebook {
+  color: #4968ad;
+}
+
+a.twitter {
+  color: #49a1eb;
+}
+
+a.instagram {
+  color: black;
+}
